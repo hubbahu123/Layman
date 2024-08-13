@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" version="1.1">
+	<defs x1="0" y1="25" x2="50" y2="25">
+		<linearGradient id="redGrad" gradientUnits="userSpaceOnUse">
+			<stop offset=".45" stop-color="#ffcaaf"/>
+			<stop offset=".5" stop-color="#e5b69d"/>
+			<stop offset=".55" stop-color="#ffcaaf"/>
+		</linearGradient>
+		<linearGradient id="blueGrad">
+			<stop offset=".45" stop-color="#85d4ff"/>
+			<stop offset=".5" stop-color="#78bfe5"/>
+			<stop offset=".55" stop-color="#85d4ff"/>
+		</linearGradient>
+		<linearGradient id="paperGrad">
+			<stop offset=".45" stop-color="#faffeb"/>
+			<stop offset=".5" stop-color="#e1e5d3"/>
+			<stop offset=".55" stop-color="#faffeb"/>
+		</linearGradient>
+	</defs>
+	<path d="M0 2.5v40.27l25 4.73 25-4.73V2.5L25 7.23z" fill="url(#paperGrad)"/>
+	<path d="M0 2.5v40.27l25 4.73 25-4.73v-9.15l-25 4.73-16.59-2.84V3.86z" fill="url(#blueGrad)"/>
+	<path d="M50 2.5L25 7.23 8.41 3.86v9.15L25 16.38l16.59-2.84V44.4L50 42.77z" fill="url(#redGrad)"/>
+</svg>
