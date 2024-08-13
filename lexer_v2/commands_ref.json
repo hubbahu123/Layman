@@ -1,0 +1,5 @@
+{
+    "debug": "Toggles debug mode which changes error messages, and displays the tokenization, parsing, and evaluation processes",
+    "exit": "Ends the shell program",
+    "help": "Displays all the available commands to the user"
+}
